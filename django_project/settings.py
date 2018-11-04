@@ -98,7 +98,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'django',
         'USER': 'django',
-        'PASSWORD': '38c194dcc7d73cdf25178dabbbec3cbf',
+        'PASSWORD': 'django',
         'HOST': 'localhost',
         'PORT': '',
     }
@@ -123,6 +123,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = '/home/django/django_project/django_project/static/'
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 # Allow Django from all hosts. This snippet is installed from
 # /var/lib/digitalocean/allow_hosts.py
